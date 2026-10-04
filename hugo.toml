@@ -1,0 +1,28 @@
+theme = 'PaperMod'
+baseURL = 'https://taoningli.github.io/'
+locale = 'en-us'
+title = 'Taoning Li 的主页'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
+[menu]
+  # 简历页导航
+  [[menu.main]]
+    identifier = "resume"
+    name = "TaoningLi"
+    url = "/resume/"
+    weight = 10
+
+
+  # 博客文章列表导航
+  [[menu.main]]
+    identifier = "blog"
+    name = "Posts"
+    url = "/posts/"
+    weight = 40
