@@ -1,7 +1,7 @@
 theme = 'PaperMod'
 baseURL = 'https://taoningli.github.io/'
 locale = 'en-us'
-title = 'Taoning Li 的主页'
+title = 'Taoning Li'
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
